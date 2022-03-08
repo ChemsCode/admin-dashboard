@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d42ab9d74.js" crossorigin="anonymous"></script>
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -11,29 +12,37 @@
     <div class="container">
 
         <div class="Dashboard">
-            <h1>Dashboard</h1>
+            <h1><i class='fas fa-dice-d6'></i>Dashboard</h1>
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li> 
-                <li>Communities</li>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><i class='fas fa-home'></i> Home</li>
+                <li><i class='fas fa-smile'></i> Profile</li>
+                <li><i class='fas fa-comment'></i> Messages</li>
+                <li><i class='fas fa-history'></i> History</li>
+                <li><i class='fas fa-tasks'></i> Tasks</li> 
+                <li><i class='fas fa-people-arrows'></i> Communities</li>
+                <li><i class='fas fa-cog'></i> Settings</li>
+                <li><i class='fas fa-hands-helping'></i> Support</li>
+                <li><i class='far fa-id-card'></i> Privacy</li>
             </ul>
         </div>
 
         <div class="Header">
             <div class="upper-header">
-                <input type="text" placeholder="Search..">
-                <div>
+                <label for="searchbar">
+                    <i class='fas fa-search'></i>
+                  <input type="text" id="searchbar" placeholder="Search...">  
+                </label>
+                <div class="right-side-top">
+                    <img src="https://icon-library.com/images/default-profile-icon/default-profile-icon-5.jpg" alt="logo" class="profile-img">
                     <h3>ChemsCode</h3>
                 </div>
             </div>
             <div class="lower-header">
-                <p>Hi there, <br/> <span>ChemsCode (@chems)</span></p>
+                <div>
+                    <img src="https://icon-library.com/images/default-profile-icon/default-profile-icon-5.jpg" alt="logo" class="profile-img">
+                  <p class="par">Hi there, <br/> <span>ChemsCode (@chems)</span></p>  
+                </div>
+                
                 <ul>
                     <li><button>New</button></li>
                     <li><button>Upload</button></li>
